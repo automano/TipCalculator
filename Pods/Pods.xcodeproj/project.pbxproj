@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0261226AB51B690BDF3363C4AFA1F60B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		262D26477F75070FA32826095C42048E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4F24BD1959C3E3271B6FB7280C2EC0CE /* Pods-TipCalculator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A87EB8407090E4B409071A5F49411780 /* Pods-TipCalculator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75B1D5FB47C2A8F9C3F36D157FB1A8A3 /* Pods-TipCalculatorTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 206EFC7D091C050B58BC699CFF445495 /* Pods-TipCalculatorTests-dummy.m */; };
+		79DBE57BC355505EF768560DFDE2BBA4 /* Pods-TipCalculatorUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C8E235808D7B9D63D8D9FA3C8EBF50 /* Pods-TipCalculatorUITests-dummy.m */; };
+		7D77C2ABDB07E4D1948E98C36CD96928 /* Pods-TipCalculator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF2C56015B46CC298A80902613DAF72 /* Pods-TipCalculator-dummy.m */; };
+		85F58F20821299BF3BF8DC5D842A3290 /* Pods-TipCalculatorUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7A4889B708044553E6DD311B8297403 /* Pods-TipCalculatorUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FEACCA898BC9EACFC69E94848CC7E09 /* Pods-TipCalculatorTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE5A6DBF0B8AAD54B2A14C027849EF8E /* Pods-TipCalculatorTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5D355816DE2FB5419DC5CC5D6B14ACA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		002FEE1D9AFAD6DCF73834737B479184 /* Pods-TipCalculatorTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TipCalculatorTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		03093DC17BF7DD1E02569A2B68D5C7B0 /* Pods-TipCalculatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TipCalculatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		0B075EDFF7EE558894ED139B5F68974D /* Pods-TipCalculator-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TipCalculator-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0EC9FB2BB4DE73E80587351FBFAFB1D6 /* Pods-TipCalculatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TipCalculatorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1661DF54A466361563B7CD11B7C4FDD0 /* Pods_TipCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TipCalculator.framework; path = "Pods-TipCalculator.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		206EFC7D091C050B58BC699CFF445495 /* Pods-TipCalculatorTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TipCalculatorTests-dummy.m"; sourceTree = "<group>"; };
+		354047DB7630AC4A9B0CBC0C1EC02438 /* Pods-TipCalculator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TipCalculator.modulemap"; sourceTree = "<group>"; };
+		42DA39943171CBD2DB3871BFEF2388EE /* Pods-TipCalculatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TipCalculatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4AF2C56015B46CC298A80902613DAF72 /* Pods-TipCalculator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TipCalculator-dummy.m"; sourceTree = "<group>"; };
+		598A1F9D09785CA85A55AFE897CEFDFE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		68824E5D09562A26CE89FE8CA9D773E4 /* Pods-TipCalculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TipCalculator.release.xcconfig"; sourceTree = "<group>"; };
+		6A4EE64543A1119D4D1FC32CAD764AB6 /* Pods-TipCalculatorTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TipCalculatorTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		70C0A488A90179C11D255FFCB50481C6 /* Pods-TipCalculatorUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TipCalculatorUITests-resources.sh"; sourceTree = "<group>"; };
+		7239F41F412770222EA16847C13CF8AC /* Pods_TipCalculatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TipCalculatorTests.framework; path = "Pods-TipCalculatorTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		756F952A78F5A5790C18E9C476BDF517 /* Pods-TipCalculator-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TipCalculator-frameworks.sh"; sourceTree = "<group>"; };
+		804E7D21364B249A96D395864DF40589 /* Pods-TipCalculatorTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TipCalculatorTests-resources.sh"; sourceTree = "<group>"; };
+		89C8E235808D7B9D63D8D9FA3C8EBF50 /* Pods-TipCalculatorUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TipCalculatorUITests-dummy.m"; sourceTree = "<group>"; };
+		8A576C1FA384943B6F49F531732388EE /* Pods-TipCalculator-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TipCalculator-resources.sh"; sourceTree = "<group>"; };
+		8BA178C0C806261FCC940A49D9B85ACC /* Pods-TipCalculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TipCalculator.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96AA4ACBF9AAAE6994C49C7A4A6C6E25 /* Pods-TipCalculatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TipCalculatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9F9743345E20F9D61D843FE695076CDE /* Pods-TipCalculatorUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TipCalculatorUITests.modulemap"; sourceTree = "<group>"; };
+		A6193ADBD6AA626018D608958BDF07D0 /* Pods-TipCalculatorTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TipCalculatorTests-frameworks.sh"; sourceTree = "<group>"; };
+		A87EB8407090E4B409071A5F49411780 /* Pods-TipCalculator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TipCalculator-umbrella.h"; sourceTree = "<group>"; };
+		B77CAB5CC0D47E7D8574DF4263D34F95 /* Pods_TipCalculatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TipCalculatorUITests.framework; path = "Pods-TipCalculatorUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7A4889B708044553E6DD311B8297403 /* Pods-TipCalculatorUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TipCalculatorUITests-umbrella.h"; sourceTree = "<group>"; };
+		BED0BE2441AA265A2FF569C2AFCEEE67 /* Pods-TipCalculatorUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TipCalculatorUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D02DCD704A1C50E9F090903936D0BAE5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1AD153C84EE0F297FAE3A3DF4333286 /* Pods-TipCalculator-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TipCalculator-acknowledgements.plist"; sourceTree = "<group>"; };
+		D398D8F3D06C21A5392227EFEDE3921B /* Pods-TipCalculatorTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TipCalculatorTests.modulemap"; sourceTree = "<group>"; };
+		D8F116B0278F7848B095F095283AA8CD /* Pods-TipCalculatorUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TipCalculatorUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E675063EB7E8841730D647FBD40CF476 /* Pods-TipCalculatorUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TipCalculatorUITests-frameworks.sh"; sourceTree = "<group>"; };
+		FCD94D54F4ABE01BF219DEFA0476B0F7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE5A6DBF0B8AAD54B2A14C027849EF8E /* Pods-TipCalculatorTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TipCalculatorTests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E1919449953F351FA96246232FC080A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				262D26477F75070FA32826095C42048E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FCC87C19905B1AAE6397DD2250DA850 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0261226AB51B690BDF3363C4AFA1F60B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D93650E5C03BEB86F83540EB93CD0B6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5D355816DE2FB5419DC5CC5D6B14ACA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29B6B0111574E4FB4DD56740312DF169 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				73FB0455B20AFDD607BC075FEF603BD8 /* Pods-TipCalculator */,
+				694107AE3AB3756933272114C85E11E5 /* Pods-TipCalculatorTests */,
+				904A4D11D315FCCAD1F7C4710D4051D7 /* Pods-TipCalculatorUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		632524080C523F0ECB92CDCEA6D38AC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1661DF54A466361563B7CD11B7C4FDD0 /* Pods_TipCalculator.framework */,
+				7239F41F412770222EA16847C13CF8AC /* Pods_TipCalculatorTests.framework */,
+				B77CAB5CC0D47E7D8574DF4263D34F95 /* Pods_TipCalculatorUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		694107AE3AB3756933272114C85E11E5 /* Pods-TipCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				D02DCD704A1C50E9F090903936D0BAE5 /* Info.plist */,
+				D398D8F3D06C21A5392227EFEDE3921B /* Pods-TipCalculatorTests.modulemap */,
+				002FEE1D9AFAD6DCF73834737B479184 /* Pods-TipCalculatorTests-acknowledgements.markdown */,
+				6A4EE64543A1119D4D1FC32CAD764AB6 /* Pods-TipCalculatorTests-acknowledgements.plist */,
+				206EFC7D091C050B58BC699CFF445495 /* Pods-TipCalculatorTests-dummy.m */,
+				A6193ADBD6AA626018D608958BDF07D0 /* Pods-TipCalculatorTests-frameworks.sh */,
+				804E7D21364B249A96D395864DF40589 /* Pods-TipCalculatorTests-resources.sh */,
+				FE5A6DBF0B8AAD54B2A14C027849EF8E /* Pods-TipCalculatorTests-umbrella.h */,
+				96AA4ACBF9AAAE6994C49C7A4A6C6E25 /* Pods-TipCalculatorTests.debug.xcconfig */,
+				03093DC17BF7DD1E02569A2B68D5C7B0 /* Pods-TipCalculatorTests.release.xcconfig */,
+			);
+			name = "Pods-TipCalculatorTests";
+			path = "Target Support Files/Pods-TipCalculatorTests";
+			sourceTree = "<group>";
+		};
+		73FB0455B20AFDD607BC075FEF603BD8 /* Pods-TipCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				FCD94D54F4ABE01BF219DEFA0476B0F7 /* Info.plist */,
+				354047DB7630AC4A9B0CBC0C1EC02438 /* Pods-TipCalculator.modulemap */,
+				0B075EDFF7EE558894ED139B5F68974D /* Pods-TipCalculator-acknowledgements.markdown */,
+				D1AD153C84EE0F297FAE3A3DF4333286 /* Pods-TipCalculator-acknowledgements.plist */,
+				4AF2C56015B46CC298A80902613DAF72 /* Pods-TipCalculator-dummy.m */,
+				756F952A78F5A5790C18E9C476BDF517 /* Pods-TipCalculator-frameworks.sh */,
+				8A576C1FA384943B6F49F531732388EE /* Pods-TipCalculator-resources.sh */,
+				A87EB8407090E4B409071A5F49411780 /* Pods-TipCalculator-umbrella.h */,
+				8BA178C0C806261FCC940A49D9B85ACC /* Pods-TipCalculator.debug.xcconfig */,
+				68824E5D09562A26CE89FE8CA9D773E4 /* Pods-TipCalculator.release.xcconfig */,
+			);
+			name = "Pods-TipCalculator";
+			path = "Target Support Files/Pods-TipCalculator";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				632524080C523F0ECB92CDCEA6D38AC9 /* Products */,
+				29B6B0111574E4FB4DD56740312DF169 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		904A4D11D315FCCAD1F7C4710D4051D7 /* Pods-TipCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				598A1F9D09785CA85A55AFE897CEFDFE /* Info.plist */,
+				9F9743345E20F9D61D843FE695076CDE /* Pods-TipCalculatorUITests.modulemap */,
+				BED0BE2441AA265A2FF569C2AFCEEE67 /* Pods-TipCalculatorUITests-acknowledgements.markdown */,
+				D8F116B0278F7848B095F095283AA8CD /* Pods-TipCalculatorUITests-acknowledgements.plist */,
+				89C8E235808D7B9D63D8D9FA3C8EBF50 /* Pods-TipCalculatorUITests-dummy.m */,
+				E675063EB7E8841730D647FBD40CF476 /* Pods-TipCalculatorUITests-frameworks.sh */,
+				70C0A488A90179C11D255FFCB50481C6 /* Pods-TipCalculatorUITests-resources.sh */,
+				B7A4889B708044553E6DD311B8297403 /* Pods-TipCalculatorUITests-umbrella.h */,
+				42DA39943171CBD2DB3871BFEF2388EE /* Pods-TipCalculatorUITests.debug.xcconfig */,
+				0EC9FB2BB4DE73E80587351FBFAFB1D6 /* Pods-TipCalculatorUITests.release.xcconfig */,
+			);
+			name = "Pods-TipCalculatorUITests";
+			path = "Target Support Files/Pods-TipCalculatorUITests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0BD6FD2169B0D8AA5CFB121F8505A55E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85F58F20821299BF3BF8DC5D842A3290 /* Pods-TipCalculatorUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B281558A8FB755AAD8A0DF8FFC6E137A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FEACCA898BC9EACFC69E94848CC7E09 /* Pods-TipCalculatorTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0571EBDE8A8EB07D9FA537F675C16E3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F24BD1959C3E3271B6FB7280C2EC0CE /* Pods-TipCalculator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4A04B09DD989B6DDAA13641ECB1579AF /* Pods-TipCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7F340B933276B2598A7E626ECDF1F0B /* Build configuration list for PBXNativeTarget "Pods-TipCalculatorUITests" */;
+			buildPhases = (
+				D6075A509C14F5FCE25530B881BC4E85 /* Sources */,
+				8FCC87C19905B1AAE6397DD2250DA850 /* Frameworks */,
+				0BD6FD2169B0D8AA5CFB121F8505A55E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TipCalculatorUITests";
+			productName = "Pods-TipCalculatorUITests";
+			productReference = B77CAB5CC0D47E7D8574DF4263D34F95 /* Pods_TipCalculatorUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		702C8B906CBC79A033DF0721577E013A /* Pods-TipCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 265E81E35493A119BDCE6FF08D96A371 /* Build configuration list for PBXNativeTarget "Pods-TipCalculatorTests" */;
+			buildPhases = (
+				0FE726154056ED6A4B04407D2A44D423 /* Sources */,
+				2E1919449953F351FA96246232FC080A /* Frameworks */,
+				B281558A8FB755AAD8A0DF8FFC6E137A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TipCalculatorTests";
+			productName = "Pods-TipCalculatorTests";
+			productReference = 7239F41F412770222EA16847C13CF8AC /* Pods_TipCalculatorTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D163255E5F0917CE48290958AE65FED5 /* Pods-TipCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A2BE5C4950C5EF4CC85D04E1C66F793 /* Build configuration list for PBXNativeTarget "Pods-TipCalculator" */;
+			buildPhases = (
+				5FCB6FAD0D1A14BE26CBF9C3D90BF929 /* Sources */,
+				D93650E5C03BEB86F83540EB93CD0B6F /* Frameworks */,
+				D0571EBDE8A8EB07D9FA537F675C16E3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TipCalculator";
+			productName = "Pods-TipCalculator";
+			productReference = 1661DF54A466361563B7CD11B7C4FDD0 /* Pods_TipCalculator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 632524080C523F0ECB92CDCEA6D38AC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D163255E5F0917CE48290958AE65FED5 /* Pods-TipCalculator */,
+				702C8B906CBC79A033DF0721577E013A /* Pods-TipCalculatorTests */,
+				4A04B09DD989B6DDAA13641ECB1579AF /* Pods-TipCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FE726154056ED6A4B04407D2A44D423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75B1D5FB47C2A8F9C3F36D157FB1A8A3 /* Pods-TipCalculatorTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FCB6FAD0D1A14BE26CBF9C3D90BF929 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D77C2ABDB07E4D1948E98C36CD96928 /* Pods-TipCalculator-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6075A509C14F5FCE25530B881BC4E85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79DBE57BC355505EF768560DFDE2BBA4 /* Pods-TipCalculatorUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0E29D570230746CFD36691B8CB111AD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03093DC17BF7DD1E02569A2B68D5C7B0 /* Pods-TipCalculatorTests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TipCalculatorTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TipCalculatorTests/Pods-TipCalculatorTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TipCalculatorTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2916799592F4E915142173F3194B5489 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68824E5D09562A26CE89FE8CA9D773E4 /* Pods-TipCalculator.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TipCalculator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TipCalculator/Pods-TipCalculator.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TipCalculator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		323A24856F1A4871A780301AF5C02A2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		428BFDA66C6339683B9E725524D7525E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42DA39943171CBD2DB3871BFEF2388EE /* Pods-TipCalculatorUITests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TipCalculatorUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TipCalculatorUITests/Pods-TipCalculatorUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TipCalculatorUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		55F2A9B4C79EB38DFE07E9DA17559A3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96AA4ACBF9AAAE6994C49C7A4A6C6E25 /* Pods-TipCalculatorTests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TipCalculatorTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TipCalculatorTests/Pods-TipCalculatorTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TipCalculatorTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		97F3FE3724E50235D0E35E629126C393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BA178C0C806261FCC940A49D9B85ACC /* Pods-TipCalculator.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TipCalculator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TipCalculator/Pods-TipCalculator.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TipCalculator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA33F186435244FD0FD5B7325332656C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CEF949E39BFCEF40442DDF35E3440964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EC9FB2BB4DE73E80587351FBFAFB1D6 /* Pods-TipCalculatorUITests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TipCalculatorUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TipCalculatorUITests/Pods-TipCalculatorUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TipCalculatorUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		265E81E35493A119BDCE6FF08D96A371 /* Build configuration list for PBXNativeTarget "Pods-TipCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55F2A9B4C79EB38DFE07E9DA17559A3E /* Debug */,
+				0E29D570230746CFD36691B8CB111AD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				323A24856F1A4871A780301AF5C02A2A /* Debug */,
+				CA33F186435244FD0FD5B7325332656C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A2BE5C4950C5EF4CC85D04E1C66F793 /* Build configuration list for PBXNativeTarget "Pods-TipCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97F3FE3724E50235D0E35E629126C393 /* Debug */,
+				2916799592F4E915142173F3194B5489 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7F340B933276B2598A7E626ECDF1F0B /* Build configuration list for PBXNativeTarget "Pods-TipCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				428BFDA66C6339683B9E725524D7525E /* Debug */,
+				CEF949E39BFCEF40442DDF35E3440964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
