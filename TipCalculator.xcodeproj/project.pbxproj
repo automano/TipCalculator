@@ -15,6 +15,7 @@
 		741F21F7205BB9BF009A2A9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 741F21F5205BB9BF009A2A9B /* LaunchScreen.storyboard */; };
 		741F2202205BB9C0009A2A9B /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741F2201205BB9C0009A2A9B /* TipCalculatorTests.swift */; };
 		741F220D205BB9C0009A2A9B /* TipCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741F220C205BB9C0009A2A9B /* TipCalculatorUITests.swift */; };
+		746BA0C7205DB69F00DDBDEE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 746BA0C6205DB69F00DDBDEE /* GoogleService-Info.plist */; };
 		99932789637B9FD2BE769F35 /* Pods_TipCalculatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98662213B010A859CFB2EC83 /* Pods_TipCalculatorUITests.framework */; };
 		99FB25BFE8CC95C78497EF73 /* Pods_TipCalculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93374693E9FDB43BFB44A9D4 /* Pods_TipCalculator.framework */; };
 /* End PBXBuildFile section */
@@ -52,6 +53,7 @@
 		741F2208205BB9C0009A2A9B /* TipCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		741F220C205BB9C0009A2A9B /* TipCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorUITests.swift; sourceTree = "<group>"; };
 		741F220E205BB9C0009A2A9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		746BA0C6205DB69F00DDBDEE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		93374693E9FDB43BFB44A9D4 /* Pods_TipCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TipCalculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98662213B010A859CFB2EC83 /* Pods_TipCalculatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TipCalculatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A028F18BFA0E5455278624E1 /* Pods-TipCalculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipCalculator.release.xcconfig"; path = "Pods/Target Support Files/Pods-TipCalculator/Pods-TipCalculator.release.xcconfig"; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 				741F21F3205BB9BF009A2A9B /* Assets.xcassets */,
 				741F21F5205BB9BF009A2A9B /* LaunchScreen.storyboard */,
 				741F21F8205BB9BF009A2A9B /* Info.plist */,
+				746BA0C6205DB69F00DDBDEE /* GoogleService-Info.plist */,
 			);
 			path = TipCalculator;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				741F21F7205BB9BF009A2A9B /* LaunchScreen.storyboard in Resources */,
+				746BA0C7205DB69F00DDBDEE /* GoogleService-Info.plist in Resources */,
 				741F21F4205BB9BF009A2A9B /* Assets.xcassets in Resources */,
 				741F21F2205BB9BF009A2A9B /* Main.storyboard in Resources */,
 			);
@@ -359,11 +363,13 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-TipCalculator/Pods-TipCalculator-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CurrencyTextField/CurrencyTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CurrencyTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

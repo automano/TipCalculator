@@ -132,7 +132,7 @@ class ViewController: UIViewController,UITextFieldDelegate {
         return true
     }
     
-    // currency format from https://apoorv.blog/currency-format-input-uitextfield-swift/
+    // currency formatter from https://apoorv.blog/currency-format-input-uitextfield-swift/
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String)->Bool{
         if let digit = Int(string){
             billAmount = billAmount * 10 + digit

@@ -6,7 +6,8 @@ target 'TipCalculator' do
   use_frameworks!
 
   # Pods for TipCalculator
-
+  pod 'Firebase/Core'
+  
   target 'TipCalculatorTests' do
     inherit! :search_paths
     # Pods for testing
